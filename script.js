@@ -19,8 +19,9 @@ function downloadImage(url) {
   });
 }
 
-// Main function to download all images
+// Function to download all images
 function downloadImages(images) {
+  // Show loading
   loadingDiv.style.display = 'block';
   errorDiv.textContent = '';
   output.innerHTML = '';
@@ -38,7 +39,7 @@ function downloadImages(images) {
     });
 }
 
-// Trigger download on button click
+// Add event listener to the button
 btn.addEventListener('click', () => {
   downloadImages(images);
 });
