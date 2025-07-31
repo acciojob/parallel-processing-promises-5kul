@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 #loading {
   display: none;
   font-weight: bold;
@@ -7,10 +6,16 @@
 
 #error {
   color: red;
+  margin: 10px 0;
+}
+
+#output {
   margin-top: 10px;
 }
 
 #output img {
-  max-width: 150px;
-  margin: 5px;
+  max-width: 200px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
 }
